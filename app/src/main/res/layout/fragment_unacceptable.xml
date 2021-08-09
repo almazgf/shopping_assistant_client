@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarUnaccept"
+        style="@style/Toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="@drawable/abc_vector_test"
+        app:title="Список недопустимых продуктов" />
+
+
+    <EditText
+        android:id="@+id/unproduct"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="2"
+        android:ems="10"
+        android:hint="@string/inunprod"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+
+    <Button
+        android:id="@+id/setProduct"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="2"
+        android:text="@string/getprod" />
+
+    <ListView
+        android:id="@+id/unacceptList"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+
+</LinearLayout>
+

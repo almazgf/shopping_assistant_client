@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Shopping_assistant_client</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="compose">Получить состав</string>
+    <string name="scan">Сканировать штрих-код</string>
+    <string name="inbarcode">Введите штрих-код продукта</string>
+    <string name="inunprod">Введите недопустимый продукт</string>
+    <string name="getprod">Добавить</string>
+    <string name="login">Введите логин</string>
+    <string name="passowrd">Введите пароль</string>
+    <string name="loging">Авторизация</string>
+    <string name="registrat">Регистрация</string>
+    <string name="log">Login</string>
+</resources>

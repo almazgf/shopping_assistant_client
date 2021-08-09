@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        style="@style/Toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/Home"
+        app:titleMarginEnd="30dp">
+
+        <Button
+            android:id="@+id/loginButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/log"
+            android:background="@color/purple_700"
+            android:state_focused="true"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/barcode1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/inbarcode"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+
+
+    <Button
+        android:id="@+id/barcodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="@string/scan" />
+
+    <Button
+        android:id="@+id/composition1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="@string/compose" />
+
+    <Button
+        android:id="@+id/unacceptButton"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:text="Добавить недопустимые продукты" />
+
+
+</LinearLayout>
